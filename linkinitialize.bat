@@ -4,5 +4,6 @@ cd AppData
 cd Roaming
 cd discord
 cd pclink
+cls
 echo Please ask if the host is online.
 python client.py
